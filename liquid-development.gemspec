@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "liquid-development"
-  spec.version       = "0.1.2"
+  spec.version       = "0.2.0"
   spec.authors       = ["LiquidM, Inc."]
   spec.email         = ["opensource@liquidm.com"]
   spec.summary       = %q{This is a simple gem to consolidate common development dependencies.}
@@ -15,12 +15,15 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
 
   spec.add_dependency 'awesome_print'
+  spec.add_dependency 'bond'
   spec.add_dependency 'brice'
   spec.add_dependency 'cane'
   spec.add_dependency 'fuubar'
+  spec.add_dependency 'hirb'
   spec.add_dependency 'pry'
   spec.add_dependency 'rake'
   spec.add_dependency 'reek'
+  spec.add_dependency 'rib'
   spec.add_dependency 'ripl'
   spec.add_dependency 'rspec'
   spec.add_dependency 'ruby-debug'
@@ -29,4 +32,3 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'timecop'
   spec.add_dependency 'yard'
 end
-
