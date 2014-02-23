@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "liquid-development"
-  spec.version       = "0.2.0"
+  spec.version       = "0.2.1"
   spec.authors       = ["LiquidM, Inc."]
   spec.email         = ["opensource@liquidm.com"]
   spec.summary       = %q{This is a simple gem to consolidate common development dependencies.}
@@ -26,7 +26,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'rib'
   spec.add_dependency 'ripl'
   spec.add_dependency 'rspec'
-  spec.add_dependency 'ruby-debug'
   spec.add_dependency 'simplecov'
   spec.add_dependency 'tailor'
   spec.add_dependency 'timecop'
